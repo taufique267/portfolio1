@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+nav{
+    height: 15vh;
+    background-color: #050a30;
+    display: flex;
+    
+}
+.name{
+    width: 40vw;
+    height: 15vh;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name h2{
+    margin: 0;
+    font-weight: lighter;
+    font-size: 30px;
+    color:white;
+}
+.links{
+    width: 60vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.links a{
+    font-size: 22px;
+    margin: 30px;
+    text-decoration: none;
+    color:white;
+    
+}
+ .home{
+    height: 85vh;
+    background-color: #f3f5f9;
+    display: flex;
+
+}
+.image img{
+    width: 30vw;
+    height: 50vh;
+    margin: 10vh 0vh 0vh 15vw;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+
+}
+.text{
+    width: 40vw;
+    height: 50vh;
+    margin: 10vh 0vh 0vh 5vw;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text h1{
+    font-size: 45px;
+}
+.text .buttons{
+    margin-top: 2vh;
+    
+}
+.text .buttons button{
+    width: 10vw;
+    height: 5vh;
+    margin-left: 2vw;
+    border-radius: 15px;
+}
+ .about{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f3f5f9;
+
+}
+.intro {
+    width: 100vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+.container {
+    width: 100vw;
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: repeat(3,1fr);
+    /* margin-top: 20px;  */
+}
+
+.container .web, .tech, .hobbies {
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+}
+/* .web, .tech, .hobbies h1{
+    text-align: center;
+} */
+ol{
+    font-size: 30px;
+    margin-top: 40px;
+}
